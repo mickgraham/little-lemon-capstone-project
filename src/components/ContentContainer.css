@@ -1,0 +1,10 @@
+/* Responsive adjustments */
+
+@media (min-width: 769px) {
+  .container {
+    --container-max: 1200px;
+
+    width: min(var(--container-max), 100vw);
+    margin: 0 auto;
+  }
+}

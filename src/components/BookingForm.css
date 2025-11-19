@@ -1,0 +1,89 @@
+/* General */
+.booking-banner {
+  background-color: #FFFFFF;
+}
+
+.booking-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 20px;
+}
+
+.booking-content h1 {
+  color: #495E57;
+  margin: 0;
+}
+
+/* Form */
+
+.booking-form {
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 800px;
+  padding: 0rem 2rem;
+  background-color: #FFFFFF;
+}
+
+/* Labels */
+
+.booking-form label {
+  font-weight: 600;
+  color: #495E57;
+  text-align: left;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Inputs and Selects */
+
+.booking-form input,
+.booking-form select {
+  padding: 0.6rem;
+  border: 2px solid #495E57;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  color: #495E57;
+}
+
+.booking-form input.valid-input:focus,
+.booking-form select.valid-input:focus {
+  border-color: #495E57;
+  outline: none;
+  box-shadow: 0 0 0 1px rgba(73, 94, 87, 1);
+}
+
+/* Submit */
+
+.booking-form button[type="submit"] {
+  margin: 2rem;
+}
+
+/* Error */
+
+.booking-form .error {
+  color: #e63946;
+  font-size: 1rem;
+  padding-left: 1rem;
+  text-align: left;
+  border-left: 2px solid #e63946;
+}
+
+.booking-form input.error-input,
+.booking-form select.error-input {
+  border: 2px solid #e63946 !important;
+  outline: none;
+}
+
+.booking-form input.error-input:focus,
+.booking-form select.error-input:focus {
+  border-color: #e63946;
+  outline: none;
+  box-shadow: 0 0 0 1px rgba(230, 57, 70, 1);
+}

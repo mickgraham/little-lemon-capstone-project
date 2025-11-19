@@ -1,0 +1,34 @@
+.confirmed-booking {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0px;
+  background-color: #FFFFFF;
+  color: #495E57;
+}
+
+.confirmed-booking h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.booking-details dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 2rem;
+  padding: 2rem 0px;
+}
+
+.booking-details dt {
+  font-weight: bold;
+  text-align: right;
+}
+
+.booking-details dd {
+  margin: 0;
+  text-align: left;
+}
