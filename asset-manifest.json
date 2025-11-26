@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/little-lemon-capstone-project/static/css/main.3489fa44.css",
+    "main.js": "/little-lemon-capstone-project/static/js/main.64faf9f4.js",
+    "static/js/453.cc7d44f5.chunk.js": "/little-lemon-capstone-project/static/js/453.cc7d44f5.chunk.js",
+    "static/media/person1.jpg": "/little-lemon-capstone-project/static/media/person1.14e3ccc2c0c563f20a26.jpg",
+    "static/media/person2.jpg": "/little-lemon-capstone-project/static/media/person2.7d549996cbc662fc3f48.jpg",
+    "static/media/person3.jpg": "/little-lemon-capstone-project/static/media/person3.2faa22c72dadfaf63fb8.jpg",
+    "static/media/person4.jpg": "/little-lemon-capstone-project/static/media/person4.b626120b012f28dfafe3.jpg",
+    "static/media/bruschetta.jpg": "/little-lemon-capstone-project/static/media/bruschetta.8423c8c5ec34681e492b.jpg",
+    "static/media/mario_and_adrian_a.jpg": "/little-lemon-capstone-project/static/media/mario_and_adrian_a.19d95d1ac58c01acc2e1.jpg",
+    "static/media/restaurant_food.jpg": "/little-lemon-capstone-project/static/media/restaurant_food.69ae39181646cbb3f3f8.jpg",
+    "static/media/mario_and_adrian_b.jpg": "/little-lemon-capstone-project/static/media/mario_and_adrian_b.d67e1aa6a0ec9219fe25.jpg",
+    "static/media/greek_salad.jpg": "/little-lemon-capstone-project/static/media/greek_salad.75170b29f9120c4c18b0.jpg",
+    "static/media/logo3_mono.png": "/little-lemon-capstone-project/static/media/logo3_mono.b4a4d73909c9839cc67b.png",
+    "static/media/logo2.png": "/little-lemon-capstone-project/static/media/logo2.d4cae6fac8384c2dae04.png",
+    "static/media/scooter.svg": "/little-lemon-capstone-project/static/media/scooter.d8be90eb40ee2534fdfa224a9b068175.svg",
+    "index.html": "/little-lemon-capstone-project/index.html",
+    "static/media/star-regular-full.svg": "/little-lemon-capstone-project/static/media/star-regular-full.100e40cc8ad171ce863e789772980097.svg",
+    "static/media/star-half-stroke-solid-full.svg": "/little-lemon-capstone-project/static/media/star-half-stroke-solid-full.2371a88d45b8cdb987142da3c043e187.svg",
+    "static/media/star-solid-full.svg": "/little-lemon-capstone-project/static/media/star-solid-full.aab066aa5c77118a26ac930bfb1cbffa.svg",
+    "main.3489fa44.css.map": "/little-lemon-capstone-project/static/css/main.3489fa44.css.map",
+    "main.64faf9f4.js.map": "/little-lemon-capstone-project/static/js/main.64faf9f4.js.map",
+    "453.cc7d44f5.chunk.js.map": "/little-lemon-capstone-project/static/js/453.cc7d44f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3489fa44.css",
+    "static/js/main.64faf9f4.js"
+  ]
+}
