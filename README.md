@@ -14,25 +14,24 @@ The Little Lemon Booking Website is a restaurant reservation application built w
 - **User Interface Design:** Creating an intuitive booking experience
 - **Mock API Functions:** Simulating API calls for available times and form submission
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# References
 
 1. [Deploying a React App to GitHub Pages](https://github.com/gitname/react-gh-pages)
 2. [The official `create-react-app` deployment guide](https://create-react-app.dev/docs/deployment/#github-pages)
 
-* Special thanks to GitHub (the company) for providing us with the GitHub Pages hosting service for free.
-* This repository consists of two branches:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+This repository consists of two branches:
   * main: The source code
   * gh-pages: The React app built from that source code
 
+Special thanks to GitHub (the company) for providing us with the GitHub Pages hosting service for free.
+
 ---
 
-<img src="https://github.com/user-attachments/assets/54a5adbf-db66-4e8d-b5dd-2b3247f14fb8" />
+<img src="https://github.com/user-attachments/assets/044e96bb-785b-4ac3-a15d-d0f08a1e7e9b" />
 
 ---
 
