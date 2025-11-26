@@ -32,7 +32,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
-<img width="1900" height="917" alt="image" src="https://github.com/user-attachments/assets/54a5adbf-db66-4e8d-b5dd-2b3247f14fb8" />
+<img src="https://github.com/user-attachments/assets/54a5adbf-db66-4e8d-b5dd-2b3247f14fb8" />
 
 ---
 
