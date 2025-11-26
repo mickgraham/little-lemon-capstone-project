@@ -1,17 +1,19 @@
 # This is a basic workflow to help you get started with Actions
-
-name: CI
+name: Deploy Website
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+permissions:
+  contents: read        # Needed to read repository files
+  pages: write          # Needed to publish to GitHub Pages
+  id-token: write       # Needed for OIDC authentication with GitHub Pages
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -20,17 +22,17 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      # Pull repository into the runner
+      - name: Checkout source code
+        uses: actions/checkout@v4
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      # Upload the folder GitHub Pages will publish
+      - name: Upload Pages Artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      # Deploy the folder uploaded above
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
