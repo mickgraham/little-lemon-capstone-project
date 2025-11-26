@@ -14,7 +14,11 @@ The Little Lemon Booking Website is a restaurant reservation application built w
 - **User Interface Design:** Creating an intuitive booking experience
 - **Mock API Functions:** Simulating API calls for available times and form submission
 
-# References
+### Current Functionality
+
+**Note:** The primary working functionality in this application is the **Reserve a Table** feature. Other features are present for design demonstration purposes.
+
+## References
 
 1. [Deploying a React App to GitHub Pages](https://github.com/gitname/react-gh-pages)
 2. [The official `create-react-app` deployment guide](https://create-react-app.dev/docs/deployment/#github-pages)
@@ -35,4 +39,4 @@ Special thanks to GitHub (the company) for providing us with the GitHub Pages ho
 
 ---
 
-**Developed as part of Meta's Front-End Developer Professional Certificate on Coursera**
+**Developed as part of Meta's Front-End Developer Professional Certificate on Coursera.**
