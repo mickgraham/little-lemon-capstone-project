@@ -8,7 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/little-lemon-capstone-project">
       <App />
     </BrowserRouter>
   </React.StrictMode>
